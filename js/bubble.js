@@ -21,7 +21,7 @@ var bubbleSort = function(input) {
   var results = {
     elapsedTime: stopTimer - startTimer,
     sorted: input
-  }
+  };
   return results;
 }
 
