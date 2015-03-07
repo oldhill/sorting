@@ -50,7 +50,7 @@ def permute(input_string):
   return result
 
 
-# Cast the string to a list and run it
-result = permute('ABCD')
+# Run it
+result = permute(my_string)
 print '\nBy hand results: %s' % result
 print 'By hand permutation count: %d' % len(result)
